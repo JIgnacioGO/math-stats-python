@@ -1,0 +1,54 @@
+### Universal y Sistema Operativo ###
+# Archivos comunes
+*.log
+*.tmp
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
+*.env
+.env.*
+*.local
+
+### Entornos Virtuales y Dependencias ###
+/sagemath-env/
+/env/
+/venv/
+/node_modules/
+
+### Python & Jupyter ###
+# Cache de Python y archivos de Jupyter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+*.ipynb_checkpoints.*
+.jupyter/
+
+### IDE: DataSpell / JetBrains ###
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+out/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/dataspell.xml
+.idea/jupyter-settings.xml
+.idea/data-sources.xml
+.dataspell/
+
+### SageMath ###
+*.sage.py
+.sage/
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+### Datos del Proyecto ###
